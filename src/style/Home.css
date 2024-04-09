@@ -1,0 +1,34 @@
+.home__wrapper {
+    border: 1px solid rgba(0, 0, 0, 0.213);
+    border-radius: 5px;
+    margin: 50px;
+}
+
+.home__title {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    gap: 5px;
+}
+
+.home > label {
+    font-size: larger;
+}
+
+.home > input {
+    height: 25px;
+}
+
+.home > button {
+    margin-top: 15px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.517);
+    border-radius: 10px;
+    color: white;
+}

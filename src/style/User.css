@@ -1,0 +1,31 @@
+.user {
+    display: flex;
+    margin-top: 50px;
+}
+
+.pic {
+    flex: 1;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.email {
+    text-align: center;
+}
+
+.user__input {
+    width: 350px;
+}
+
+.user__container {
+    margin: 50px;
+    text-align: start;
+}
