@@ -19,19 +19,18 @@ function Home({ raffles }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const { name, key: secretToken } = key; // Destructure name and key from key object
+    const { name, key: secretToken } = key; 
     try {
       const response = await fetch(`${API}/api/raffles`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ name, key: secretToken }), // Use name and secretToken here
+        body: JSON.stringify({ name, key: secretToken }),
       });
       if (response.ok) {
         const newRaffle = await response.json();
         console.log(newRaffle);
-        // Reset the key state to its initial values
         setKey({
           name: "",
           key: ""

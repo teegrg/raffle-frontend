@@ -5,6 +5,8 @@ import "../style/Registar.css";
 
 import Create from "../components/Create";
 import Users from "../components/Users";
+import Winner from '../components/Winner';
+
 import Box from "@mui/material/Box";
 import Divider from "@mui/material/Divider";
 import HowToRegIcon from '@mui/icons-material/HowToReg';
@@ -57,6 +59,7 @@ function Registar({ raffles }) {
       <div className="option">
         {selectedOption === 'registar' && <Create />}
         {selectedOption === 'participants' && <Users />}
+        {selectedOption === 'pickWinner' && <Winner/>}
       </div>
     </div>
   );
