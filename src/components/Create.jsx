@@ -19,7 +19,7 @@ function Create() {
 
   return (
     <div className="create">
-      <div>Registar to participate in the raffle:</div>
+      <div className="create__title">Registar to participate in the raffle:</div>
       <form action="">
         <div className="create__lable">
         <label htmlFor="">First Name*</label>
@@ -59,8 +59,8 @@ function Create() {
           onChange={handleChange}
         />
         <div className="create__btn">
-          <button className="create__btn"  onClick={onClick}>Submit</button>
-          <button className="create__btn" onClick={onClick}>Reset</button>
+          <button className="create__btn1"  onClick={onClick}>Submit</button>
+          <button className="create__btn2" onClick={onClick}>Reset</button>
         </div>
       </form>
     </div>
