@@ -3,12 +3,6 @@
   padding-bottom: 25px;
 }
 
-.option {
-  display: flex;
-  justify-content: space-evenly;
-  border: 1px solid black;
-}
-
 .title__raffle {
   font-size: 2em;
   margin: 25px;

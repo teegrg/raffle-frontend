@@ -1,0 +1,44 @@
+.pick__winner{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pick__title {
+    text-align: start;
+    font-size: x-large;
+    padding-bottom: 10px;
+}
+
+.pick__winner > input {
+    height: 30px;
+}
+
+.pick__winner > button {
+    height: 35px;
+    margin-top: 10px;
+    background-color: rgba(128, 128, 128, 0.512);
+    border: none;
+    border-radius: 7px;
+    color: white;
+}
+
+.pick__footer {
+    margin-top: 10px;
+    border: 0.5px solid rgba(0, 0, 0, 0.442);
+    border-radius: 7px;
+    background-color: rgba(245, 245, 245, 0.444);
+    text-align: start;
+    padding: 10px 0 10px 10px;
+}
+
+.footer__title {
+    font-size: large;
+    padding-bottom: 3px;
+    color: rgba(0, 0, 0, 0.819);
+}
+
+.footer__foot {
+    font-size: small;
+    color: rgb(134, 135, 136);
+}

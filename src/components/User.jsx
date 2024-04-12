@@ -22,6 +22,7 @@ function User({ participant }) {
           {participant.phone}
         </div>
       </div>
+      <hr />
     </div>
   );
 }

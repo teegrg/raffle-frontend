@@ -1,34 +1,41 @@
 .create {
-    margin-top: 50px;
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .create > form {
-    border: 1px solid black;
-    border-radius: 7px;
-    display: flex;
-    flex-direction: column;
-    padding: 50px;
-    margin: 50px 150px 50px 150px;
-    font-weight:400;
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  padding: 0 30px 30px 30px;
 }
 
+.create__title {
+  text-align: start;
+  padding: 30px;
+}
 .create__lable {
-    display: flex;
-    gap: 25px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .create__lable > input {
-    width: 378px;
+  width: 500px;
+  height: 30px;
 }
 
 form > label {
-    text-align: start;
-    padding-top: 15px;
+  text-align: start;
+  padding-top: 15px;
 }
 
- .create__btn {
-    width: 75px;
-    margin-top: 50px;
-    margin-left: 15px;
+form > input {
+    height: 30px;
+}
+
+.create__btn1,
+.create__btn2 {
+  width: 100px;
+  margin-top: 50px;
+  margin-left: 15px;
+  height: 30px;
 }
