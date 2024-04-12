@@ -39,7 +39,7 @@ function App() {
       <div className="App">
         <Routes>
           {loading ? "loading..." : <Route path="/" element={<Home raffles={raffles}/>} />}
-          <Route path="/registar/:id" element={<Registar raffles={raffles}/>} />
+          <Route path="/registar/:id" element={<Registar />} />
         </Routes>
       </div>
     </Router>
