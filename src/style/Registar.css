@@ -5,5 +5,17 @@
 
 .title__raffle {
   font-size: 2em;
-  margin: 25px;
+  font-weight: bold;
+  margin: 25px 0 15px 0;
+}
+
+.raffle__name {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.option__1:hover {
+  cursor: pointer;
+  background-color: rgba(128, 128, 128, 0.474);
 }

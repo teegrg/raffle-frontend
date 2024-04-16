@@ -1,6 +1,7 @@
 import { useState } from "react";
 import AllRaffles from "../components/AllRaffles";
 import "../style/Home.css";
+import { message } from 'react-message-popup'
 
 
 const API = process.env.REACT_APP_API_URL;
@@ -29,8 +30,8 @@ function Home({ raffles }) {
         body: JSON.stringify({ name, key: secretToken }),
       });
       if (response.ok) {
-        const newRaffle = await response.json();
-        console.log(newRaffle);
+        await response.json();
+        message.success('New raffle created',5000)
         setKey({
           name: "",
           key: ""

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import User from "./User";
 
 import "../style/User.css";
@@ -26,7 +26,7 @@ function Users({ participants }) {
       />
 
       {filteredParticipants.length === 0 ? (
-        <div>No participants found with the name "{search}"</div>
+        <div>No participants found</div>
       ) : (
         filteredParticipants.map((participant) => (
           <User key={participant.id} participant={participant} />

@@ -12,3 +12,7 @@
 .allRaffles {
     padding-left: 25px;
 }
+
+.raffle__content {
+    font-size: small;
+}

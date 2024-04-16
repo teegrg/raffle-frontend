@@ -42,3 +42,8 @@
     font-size: small;
     color: rgb(134, 135, 136);
 }
+
+.invalid__token {
+    color: red;
+    padding-top: 7px;
+}

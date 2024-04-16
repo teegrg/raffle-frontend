@@ -10,7 +10,7 @@ import Winner from "../components/Winner";
 
 import Box from "@mui/material/Box";
 import Divider from "@mui/material/Divider";
-import HowToRegIcon from "@mui/icons-material/HowToReg";
+import EditNoteIcon from '@mui/icons-material/EditNote';
 import GroupsIcon from "@mui/icons-material/Groups";
 import ConfirmationNumberIcon from "@mui/icons-material/ConfirmationNumber";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
@@ -54,11 +54,12 @@ function Registar() {
   return (
     <div className="registar">
       <div className="title__raffle">Raffle App</div>
-      <div >Raffle name</div>
+      <div className="raffle__name">Raffle name</div>
       <Box
         sx={{
           display: "flex",
-          justifyContent: "center",
+          justifyContent: "space-evenly",
+          margin: "30px",
           border: "1px solid",
           borderColor: "divider",
           borderRadius: 1,
@@ -71,7 +72,7 @@ function Registar() {
             mx: 8,
           },
         }}>
-        <Link to="/" style={{ textDecoration: "none", color: "black" }}>
+        <Link to="/" style={{ textDecoration: "none", color: "grey" }}>
           {" "}
           <div>
             <ConfirmationNumberIcon />
@@ -82,7 +83,7 @@ function Registar() {
         <div
           className="option__1"
           onClick={() => handleOptionClick("registar")}>
-          <HowToRegIcon />
+          <EditNoteIcon />
           Registar
         </div>
         <Divider orientation="vertical" flexItem />
